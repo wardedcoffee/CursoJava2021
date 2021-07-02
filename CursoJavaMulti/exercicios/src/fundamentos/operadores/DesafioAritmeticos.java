@@ -1,10 +1,12 @@
-package fundamentos;
+package fundamentos.operadores;
 
 public class DesafioAritmeticos {
 
 	public static void main(String[] args) {
 
 		// int a = 3 * 4 - 10;
+		// fazendo um CAST pra forçar um resultado inteiro já que a classe Math com
+		// power retorna um valor double
 		// int b = (int) Math.pow(a, 3);
 		// double c = Math.pow(a, 3);
 
@@ -34,14 +36,14 @@ public class DesafioAritmeticos {
 
 		// caixa azul
 		double chaveSuperior = primeiroResultado - barraDois;
-		// System.out.println(chaveSuperior);
+		System.out.println(chaveSuperior);
 
 		double cinquentaElevado = Math.pow(chaveSuperior, 3);
-		// System.out.println(cinquentaElevado);
+		System.out.println(cinquentaElevado);
 
 		// dez elevado a 3
 		double dezElevado = Math.pow(10, 3);
-		// System.out.println(dezElevado);
+		System.out.println(dezElevado);
 
 		// cinquenta elevado a 3 dividido por dez elevado a 3
 		double finalResult = cinquentaElevado / dezElevado;
