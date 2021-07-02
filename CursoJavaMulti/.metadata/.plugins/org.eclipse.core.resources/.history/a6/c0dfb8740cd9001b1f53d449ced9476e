@@ -1,0 +1,19 @@
+package fundamentos;
+
+public class Temperatura {
+
+	public static void main(String[] args) {
+		// (°F - 32) x 5/9 = °C
+		//   Var const const  var
+		
+		double tempFarenheit = 100;
+		final double FATOR = 32;
+		final double DIFERENCA = 5/9;
+		double tempCelsius = 0;
+		
+		tempCelsius = 50;
+		System.out.println(tempCelsius);
+
+	}
+
+}

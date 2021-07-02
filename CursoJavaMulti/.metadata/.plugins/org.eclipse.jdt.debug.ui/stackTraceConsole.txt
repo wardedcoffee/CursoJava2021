@@ -1,0 +1,42 @@
+System.out.print("Digite o seu nome: ");
+		String nome = entrada.nextLine();
+		
+		System.out.println("Digite o seu sobrenome: ");
+		String sobrenome = entrada.nextLine();
+		
+		System.out.print("Digite a sua idade ");
+		int idade = entrada.nextInt();
+
+
+
+
+
+
+
+
+
+
+
+Java
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11	public static void main(String[] args) {
+ 
+        float numeroFlutuante1 =  10.326665f;
+        double numeroFlutuante2 = 20.56556;
+ 
+        DecimalFormat numeroFormatado = new DecimalFormat("##.##");
+ 
+        System.out.println("Meu primeiro número formatado com Println: " + numeroFormatado.format(numeroFlutuante1));
+        System.out.println("Meu primeiro número formatado com Println: " + numeroFormatado.format(numeroFlutuante2));
+ 
+    }

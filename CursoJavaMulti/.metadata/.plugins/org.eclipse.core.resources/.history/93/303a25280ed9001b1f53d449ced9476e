@@ -1,0 +1,26 @@
+package fundamentos;
+
+public class Temperatura {
+
+	public static void main(String[] args) {
+		// (°F - 32) x 5/9 = °C
+		//   Var const const  var
+		
+		double f = 100;
+		final double FAT = 32;
+		final double DIF = 5/9;
+		double c = 0;
+		
+		f = 550;
+		double ffat = (f - FAT);
+		double ffatDif = (ffat * DIF);
+		
+		
+		//x DIF = C;
+		
+		
+		System.out.println(ffatDif);
+
+	}
+
+}
