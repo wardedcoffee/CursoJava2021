@@ -13,7 +13,7 @@ public class TipoStringEquals {
 
 		Scanner entrada = new Scanner(System.in);
 
-		String s2 = entrada.nextLine();
+		String s2 = entrada.nextLine(); // .nextLine mantem espaços em branco, .next retira os espaços
 		System.out.println(s2);
 		System.out.println("2" == s2.trim());
 		System.out.println("2".equals(s2.trim()));
