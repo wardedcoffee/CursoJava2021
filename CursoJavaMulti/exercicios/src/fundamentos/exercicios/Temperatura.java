@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.exercicios;
 
 public class Temperatura {
 
@@ -17,7 +17,7 @@ public class Temperatura {
 		fahrenheit = 0;
 		celsius = (fahrenheit - AJUSTE) * FATOR;
 		System.out.println("O resultado é " + celsius + "°C.");
-
+		
 		// command + c 'copia algo'
 		// command + v 'cola algo'
 		// alt + seta pra 'cima ou pra baixo'
