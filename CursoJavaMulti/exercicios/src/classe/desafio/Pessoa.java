@@ -12,7 +12,7 @@ public class Pessoa {
 	
 	void comer(Comida comida) {
 		if(comida != null) {
-		System.out.println(this.peso += comida.peso);
+		this.peso += comida.peso;
 		}
 	}
 	

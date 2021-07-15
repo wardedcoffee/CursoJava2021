@@ -20,9 +20,6 @@ public class TipoString {
 		var idade = 33;
 		var salario = 12345.987;
 		
-		String maisUmaFrase = "Nome: " + nome + "\nSobrenome: "
-		+ sobrenome + "\nIdade: " + idade + "\nSalario: " + salario + "\n\n ";
-		
 		System.out.println("Nome: " + nome + "\nSobrenome: " 
 				+ sobrenome + "\nIdade: " + idade +
 				"\nSalario: " + salario + "\n\n");

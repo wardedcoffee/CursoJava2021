@@ -32,7 +32,7 @@ public class DesafioConversao {
 		System.out.println(salarioAtual);
 
 		double soma = atual + anterior + retrasado;
-		System.out.println("A soma dos 3 salários é: " + soma);
+		System.out.println("A soma dos 3 salários de " + nome + " é: " + soma);
 		System.out.println("A média dos últimos 3 salários é: " + soma / 3);
 
 		entrada.close();
