@@ -23,15 +23,7 @@ public class NotasArray {
 
 		for (int i = 0; i < notasAlunos.length; i++) {
 			System.out.println(notasAlunos[i]);
-			notasAluno2 += i;
-			System.out.println(notasAlunos);
-			/*
-			notasAlunos[0] = notasAluno2;
-			notasAlunos[1] = 2;
-			notasAlunos[2] = 3;
-			notasAlunos[3] = 4;
-			notasAlunos[4] = 5;
-			*/
+			
 
 		}
 
