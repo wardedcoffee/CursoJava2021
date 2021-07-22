@@ -2,19 +2,42 @@ package oo.heranca.desafio;
 
 public class Carro {
 
-	// velocidade atual
-	int velocidadeAtual = 0;
+	public final int VELOCIDADE_MAXIMA;
+	public int velocidadeAtual;
+	protected int delta = 5;
+
+	protected Carro(int velocidadeMaxima) {
+		VELOCIDADE_MAXIMA = velocidadeMaxima;
+	}
+
+	
+	  //jeito fácil de resolver
+	public Carro() {
+		this.VELOCIDADE_MAXIMA = 200;
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
 
 	// acelerar
-	boolean acelerar() {
-
-		velocidadeAtual += 5;
+	public boolean acelerar() {
+		if(velocidadeAtual + delta > VELOCIDADE_MAXIMA) {
+			velocidadeAtual = VELOCIDADE_MAXIMA;
+			System.out.println(
+					"não foi possível acelerar além de 200 Fuscão! por favor reduza a velocidade");
+		} else {
+			
+			velocidadeAtual += delta;
+			System.out.println("Fuscão Preto " + velocidadeAtual);
+			
+		}
 
 		return true;
 	}
 
 	// frear
-	boolean frear() {
+	public boolean frear() {
 
 		// barra frear negativo
 		if (velocidadeAtual > 0) {

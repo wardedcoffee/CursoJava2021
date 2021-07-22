@@ -2,15 +2,29 @@ package oo.heranca.desafio;
 
 public class Ferrari extends Carro {
 
-	boolean acelerar() {
+	public Ferrari() {
+		this(150);
 
+	}
+
+	public Ferrari(int velocidadeMaxima) {
+		super(velocidadeMaxima = 300);
+		delta = 15;
+
+	}
+
+	// acelerar Ferrari com limite de 200
+	
+	 public boolean acelerar() {
+	
 		velocidadeAtual += 15;
+		System.out.println("Ferrari " + velocidadeAtual);
 
 		return true;
 	}
-	
+
 	// frear
-	boolean frear() {
+	public boolean frear() {
 
 		// barra frear negativo
 		if (velocidadeAtual > 0) {
