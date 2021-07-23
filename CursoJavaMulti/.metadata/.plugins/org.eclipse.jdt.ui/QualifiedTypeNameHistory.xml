@@ -37,17 +37,20 @@
     <fullyQualifiedTypeName name="oo.composicao.Carro"/>
     <fullyQualifiedTypeName name="oo.composicao.Aluno"/>
     <fullyQualifiedTypeName name="oo.composicao.Curso"/>
-    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.resposta.Item"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.resposta.Compra"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="oo.heranca.Direcao"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="oo.heranca.Heroi"/>
     <fullyQualifiedTypeName name="oo.heranca.Jogador"/>
     <fullyQualifiedTypeName name="oo.heranca.Monstro"/>
     <fullyQualifiedTypeName name="oo.heranca.desafio.Carro"/>
     <fullyQualifiedTypeName name="oo.heranca.desafio.Fusca"/>
     <fullyQualifiedTypeName name="oo.heranca.desafio.Ferrari"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="oo.encapsulamento.casaA.Ana"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>

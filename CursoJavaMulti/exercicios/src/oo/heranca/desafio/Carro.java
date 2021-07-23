@@ -4,7 +4,7 @@ public class Carro {
 
 	public final int VELOCIDADE_MAXIMA;
 	public int velocidadeAtual;
-	protected int delta = 5;
+	private int delta = 5;
 
 	protected Carro(int velocidadeMaxima) {
 		VELOCIDADE_MAXIMA = velocidadeMaxima;
@@ -22,14 +22,14 @@ public class Carro {
 
 	// acelerar
 	public boolean acelerar() {
-		if(velocidadeAtual + delta > VELOCIDADE_MAXIMA) {
+		if(velocidadeAtual + getDelta() > VELOCIDADE_MAXIMA) {
 			velocidadeAtual = VELOCIDADE_MAXIMA;
 			System.out.println(
 					"não foi possível acelerar além de 200 Fuscão! por favor reduza a velocidade");
 		} else {
 			
-			velocidadeAtual += delta;
-			System.out.println("Fuscão Preto " + velocidadeAtual);
+			velocidadeAtual += getDelta();
+			System.out.println("Velocidade atual do Fuscão Preto => " + velocidadeAtual + "Km/h.");
 			
 		}
 
@@ -52,5 +52,17 @@ public class Carro {
 		return false;
 
 	}
+
+
+	public int getDelta() {
+		return delta;
+	}
+
+
+	public void setDelta(int delta) {
+		this.delta = delta;
+	}
+	
+	
 
 }

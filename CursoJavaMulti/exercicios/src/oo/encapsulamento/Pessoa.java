@@ -7,7 +7,9 @@ public class Pessoa {
 	private int idade;
 
 	public Pessoa(String nome, String sobrenome, int idade) {
+		
 		setNome(nome);
+		setSobrenome(sobrenome);
 		setIdade(idade);
 		// this.idade = idade;
 	}
