@@ -4,9 +4,9 @@ public class CursoTeste {
 
 	public static void main(String[] args) {
 
-		Aluno aluno1 = new Aluno("João");
-		Aluno aluno2 = new Aluno("Maria");
-		Aluno aluno3 = new Aluno("Pedro");
+		Aluno aluno1 = new Aluno("João", 0);
+		Aluno aluno2 = new Aluno("Maria", 0);
+		Aluno aluno3 = new Aluno("Pedro", 0);
 
 		Curso curso1 = new Curso("Java Completo");
 		Curso curso2 = new Curso("Web 2023");

@@ -5,10 +5,11 @@ import java.util.List;
 
 public class Aluno {
 
-	final String nome;
+	public final String nome;
 	final List<Curso> cursos = new ArrayList<>();
+	public int nota;
 
-	Aluno(String nome) {
+	public Aluno(String nome, int i) {
 		this.nome = nome;
 	}
 
