@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minha pagina web de cursos">
+    <meta name="keywords" content="GitHub, Git, Code">
+    <meta name="author" content="Marcos">
     <title>Document</title>
 </head>
 
 <body>
 
+    <h2>23 formulários</h2>
     <div>
 
         Nome:
@@ -20,19 +24,181 @@
 
     </div>
 
+    <section>
+        <h2>24 Input checkbox e 25 Input radio</h2>
+        <div>
+            <p>Input Checkbox</p>
+            <input type="checkbox" name="lang" value="1" />Python
+            <input type="checkbox" name="lang" value="2" />C++
+            <input type="checkbox" name="lang" value="3" />Java
+        </div>
+
+        <div>
+            <p>Input Radio </p>
+            <input type="radio" name="lang" value="1" />Python
+            <input type="radio" name="lang" value="2" />C++
+            <input type="radio" name="lang" value="3" />Java
+        </div>
+
+        <div>
+            <p>Input Radio Texto</p>
+            <input type="radio" name="est" value="SP" />São Paulo
+            <input type="radio" name="est" value="PI" />Piauí
+            <input type="radio" name="est" value="BA" />Bahia
+        </div>
+    </section>
+
     <div>
-        <p>Input Checkbox</p>
-        <input type="checkbox" name="lang" value="1" />Python
-        <input type="checkbox" name="lang" value="2" />C++
-        <input type="checkbox" name="lang" value="3" />Java
+        <h2>26. Input password, date, color, emaill e number</h2>
+        Senha: <input type="password" name="senha" />
+        Data de nascimento: <input type="date" name="nascimento" /><br>
+        <!-- Data de nascimento: <input type="date" name="nascimento" min="2021-07-29" max="2021-07-30" /><br> -->
+        Escolha uma cor: <input type="color" value="#ffffff" />
+
+        <form action="">
+            Digite seu email:
+            <input type="email" required />
+            <input type="submit" />
+        </form>
+
+        <form action="">
+            Qual foi o ano que você nasceu?
+            <input type="number" required min="1950" max="2010" />
+            <input type="submit" />
+        </form>
     </div>
 
     <div>
-        <p>Input Radio</p>
-        <input type="radio" name="lang" value="1" />Python
-        <input type="radio" name="lang" value="2" />C++
-        <input type="radio" name="lang" value="3" />Java
+        <h2>27. Input range e time</h2>
+        <p>Seleciona a quantidade </p>
+        0
+        <input type="range" value="0" min="" max="100" step="1" />
+        100
     </div>
+
+    <a href="https://www.youtube.com/watch?v=8jLfTDn3_TM"
+        alt="O Segredo de Como Escrever HTML 50% Mais Rápido no VS Code // Mão no Código #45">HTML 50% Mais Rápido no VS
+        Code</a>
+    div>p>a
+    div>h1+p
+    p{conteudo}
+    nav
+
+    div>strong{Escolha o horário}>input:time
+    <div><strong>Escolha o horário<input type="time" name="" id=""></strong></div>
+
+    <div><strong>Escolha o horário<input type="time" name="" id=""></strong></div>
+
+    <h2>28.Atributo placeholder</h2>
+
+    <div>
+        <strong>Nome: </strong>
+        <input type="text" name="nome" placeholder="Digite seu nome" />
+        <br>
+        <strong>Telefone: </strong>
+        <input type="text" name="tel" placeholder="(ddd)0000-0000" />
+    </div>
+
+    <h2>29. Atributo required</h2>
+
+    <form action="http://google.com">
+        <div><strong>CPF:</strong>
+            <input type="text" required />
+            <input type="submit" value="Send" />
+        </div>
+    </form>
+
+    <h2>30. Atributo autofocus</h2>
+    <strong>Nome:</strong><input type="text" name="nome" autofocus />
+
+    <h2>31. Atributos min, max e maxlength</h2>
+
+    <form action="">
+        <strong>Qual a sua idade?</strong>
+        <input type="number" min="20" max="70" required />
+        <input type="submit" value="enviar" />
+    </form>
+
+    <form action="">
+        <strong>Entre com seu primeiro nome:</strong>
+        <input type="text" maxlength="10" required />
+        <input type="submit" value="enviar">
+    </form>
+
+    <h2>32. Atributo autocomplete</h2>
+    <form action="">
+        <strong>Digite seu nome:</strong>
+        <input type="text" required />
+
+        <strong>Confirme seu nome:</strong>
+        <input type="text" required autocomplete="off" />
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>33. Atributo pattern</h2>
+    <form action="">
+        <div>
+            <a
+                href="https://www.google.com/search?q=regex&oq=regex&aqs=chrome..69i57j0i433i512j0i395i433i512l6j0i395i512j0i395i433i512.2024j1j7&sourceid=chrome&ie=UTF-8">Regex</a>
+            <strong>Digite seu nome:</strong>
+            <input type="text" required pattern="[A-Z]+" />
+            <input type="submit" value="Enviar" />
+        </div>
+    </form>
+
+    <h2>34. Tag select</h2>
+    <select name="estado" id="">
+        <option value="PI">Piauí</option>
+        <option value="BA">Bahia</option>
+        <option value="PE">Pernambuco</option>
+    </select>
+
+    <h2>35. Tag textarea</h2>
+    Deixe a sua mensagem: <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+    <h2>36. Tag form</h2>
+    <form action="cadastro.php" method="post">
+        <h3>Cadastro de usuario</h3>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" />
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" />
+
+        <input type="submit" value="cadastrar" />
+    </form>
+
+    <h2>37.Tag meta</h2>
+
+    favor verificar as tags 'meta' no início do documento.
+    <nav role="navigation">
+        <ul>
+            <li>Principal</li>
+            <li>Sobre mim</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+
+    <h2>38. Atributos alt, title e role</h2>
+    <figure>
+        <img src="/HTML5/guilherme-stecanella-_dH-oQF9w-Y-unsplash.jpeg" alt="Mulher na Avenida Paulista">
+        <title>Mulher na Avenida Paulista</title>
+    </figure>
+
+    <h2>39. Definindo seus próprios atributos</h2>
+    <ul>
+        <li data-id="1234" data-estado="PI">Marcos</li>
+        <li data-id="1111" data-estado="RJ">João</li>
+        <li data-id="2222" data-estado="SP">Maria</li>
+    </ul>
+
+    <h2>40. Verificando tags</h2>
+    
+
+
 </body>
 
 </html>
