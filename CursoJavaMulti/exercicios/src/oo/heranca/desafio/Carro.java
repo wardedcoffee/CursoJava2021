@@ -14,7 +14,7 @@ public class Carro {
 	  //jeito fácil de resolver
 	public Carro() {
 		this.VELOCIDADE_MAXIMA = 200;
-		// TODO Auto-generated constructor stub
+	
 	}
 	
 	
