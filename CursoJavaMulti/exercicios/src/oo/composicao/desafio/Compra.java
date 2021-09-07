@@ -17,10 +17,10 @@ public class Compra {
 
        
 
+   /*
     // obter o valor total aqui?
     double obterValorTotal() {
         double total = 0;
-
         for (Item item : itens) {
             //total += item.quantidade * produto.preco;
         }
@@ -28,5 +28,5 @@ public class Compra {
         // enviar a compra para o Cliente
         return total;
     }
-
+*/
 }

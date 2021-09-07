@@ -13,21 +13,21 @@ public class DesafioCalculadora {
 		
 		// entrada 1
 		System.out.println("Digite o primeiro número");
-		String num1 = entrada.nextLine();
+		//String num1 = entrada.nextLine();
 		
 		// entrada 2
 		System.out.println("Digite o segundo número");
-		String num2 = entrada.nextLine();
+		//String num2 = entrada.nextLine();
 		
 		// operacao   
 		System.out.println("Digite a operação desejada");
-		String operacao = entrada.nextLine();
+		//String operacao = entrada.nextLine();
 		
-		double number1 = Double.parseDouble(num1);
-		double number2 = Double.parseDouble(num2);
+		//double number1 = Double.parseDouble(num1);
+		//double number2 = Double.parseDouble(num2);
 				
-		String soma = "+";
-		boolean operacao1 = "+".equals(soma);
+		//String soma = "+";
+		//boolean operacao1 = "+".equals(soma);
 		
 		
 		//double soma = number1 + number2; 
@@ -35,9 +35,9 @@ public class DesafioCalculadora {
 		
 		
 		
-		boolean operacao2 = operacao != "-";
-		boolean operacao3 = operacao != "*";
-		boolean operacao4 = operacao != "/";
+		//boolean operacao2 = operacao != "-";
+		//boolean operacao3 = operacao != "*";
+		//boolean operacao4 = operacao != "/";
 		
 		
 				

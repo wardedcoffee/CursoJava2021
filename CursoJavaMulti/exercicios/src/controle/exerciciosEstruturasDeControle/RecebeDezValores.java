@@ -57,7 +57,7 @@ public class RecebeDezValores {
 		
 		double nota10 = 0;
 		nota7 = entrada.nextDouble();
-		System.out.println("a nota digitada foi " + nota9);
+		System.out.println("a nota digitada foi " + nota10);
 		System.out.println("\nDigite a nona nota");
 		
 				
