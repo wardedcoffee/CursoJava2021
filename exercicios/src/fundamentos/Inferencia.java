@@ -4,7 +4,7 @@ public class Inferencia {
 
 	public static void main(String[] args) {
 
-		double a = 4.5; // declaraÃ§Ã£o e inicializaÃ§Ã£o
+		double a = 4.5; // declaração e inicialização
 		System.out.println(a);
 
 		a = 12; // double para int ele aceita?
