@@ -8,9 +8,9 @@ public class DesafioCalculadora {
 		// Ler num1
 		// Ler num2
 		// + - * / %
-		
+
 		Scanner entrada = new Scanner(System.in);
-		
+
 		// entrada 1
 		System.out.println("Digite o primeiro número");
 		//String num1 = entrada.nextLine();
@@ -48,7 +48,7 @@ public class DesafioCalculadora {
 				
 		
 		entrada.close();
-		
+
 	}
 
 }
